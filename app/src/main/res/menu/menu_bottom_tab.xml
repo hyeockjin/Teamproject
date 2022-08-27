@@ -7,22 +7,22 @@
         android:enabled="true"
         android:icon="@android:drawable/picture_frame"
         android:title="홈"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom|withText" />
     <item
         android:id="@+id/tab2"
         android:enabled="true"
         android:icon="@android:drawable/ic_menu_camera"
         android:title="사진"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom|withText" />
     <item
         android:id="@+id/tab3"
         android:enabled="true"
         android:icon="@android:drawable/ic_menu_search"
         android:title="검색"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom|withText" />
     <item
         android:id="@+id/tab4"
         android:icon="@android:drawable/btn_star_big_on"
         android:title="마이페이지"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom|withText" />
 </menu>
